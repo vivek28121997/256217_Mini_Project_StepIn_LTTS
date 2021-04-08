@@ -1,25 +1,10 @@
-# Mini-Project-StepIn-256217
-Mini-Project C-Programing
-Candidate Id: 256217
-Track: Embedded
-Name: Vivek Kumar Yadav
-College: SRM IST, Kattankulathur
 # SDLC Activity Based Learning
 
 Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI](https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/c-cpp.yml/badge.svg)]
-(https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/c-cpp.yml) | [![Static Cppcheck]
-(https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/cppcheck.yml/badge.svg)]
-(https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/cppcheck.yml) [![Dynamic Valgrind]
-(https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)]
-(https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/CodeQuality_Dynamic.yml)| [![Unity - Unit Testing]
-(https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/unity.yml/badge.svg)]
-(https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/unity.yml)| [![Git Inspector]
-(https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/gitinspector.yml/badge.svg)]
-(https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/gitinspector.yml)
+[![C/C++ CI](https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/cppcheck.yml) [![Dynamic Valgrind](https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/CodeQuality_Dynamic.yml)| [![Unity - Unit Testing](https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/unity.yml/badge.svg)](https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/unity.yml)| [![Git Inspector](https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/vivek28121997/Mini-Project-StepIn-256217/actions/workflows/gitinspector.yml)
 
 
 ## Folder Structure
@@ -49,5 +34,4 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
 4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
-
 
