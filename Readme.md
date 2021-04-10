@@ -1,5 +1,5 @@
-# Automatic Washing Machine System Consol
-It is a user input based application for Automatic Washing Machine Consol system program with different modes (fully flexible) which takes care of the clothes for washing or drying, controlling the motor spin duration and speed, with added features for analyzing the input physical parameters such as input voltage, load current for motor safety, increasing the system operation lifetime durability and safety.
+# Automatic Washing Machine Consol System
+It is a user input based application for Automatic Washing Machine Consol system program with different modes (fully flexible) which takes care of the clothes for washing or drying. It also provides the power control for various motors and pumps controlling the driving motor spin duration and speed, with added features for analyzing the input physical parameters such as input voltage, load current for motor safety, increasing the system operation lifetime durability and safety.
 
 Visit [Pages for Report -optional](using github.io option)
 
