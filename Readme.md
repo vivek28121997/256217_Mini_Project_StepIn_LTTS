@@ -19,7 +19,7 @@ Folder             | Description
 ## Contributors List and Summary
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
+-------|---------------|----------------|----------------|---------------|-------------|--------------
 `256217` | Vivek Kumar Yadav  | Feature A, B etc    | 5 No     | 2 No   |X No   |X No        
 
 ## Challenges Faced and How Was It Overcome
