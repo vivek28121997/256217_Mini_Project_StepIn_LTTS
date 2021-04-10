@@ -18,15 +18,14 @@ Folder             | Description
 
 ## Contributors List and Summary
 
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
+`256217` | Vivek Kumar Yadav  | Feature A, B etc    | 5 No     | 2 No   |X No   |X No        
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
+1. User Input checks
+2. Wrong Input checks
 3. ...
 4. ...
 
