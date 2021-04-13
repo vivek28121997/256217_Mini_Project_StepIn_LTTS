@@ -1,7 +1,7 @@
 # include "wmcs.h"
 # include <stdio.h>
 # include <stdlib.h>
-# include <stdio_ext.h>
+//# include <stdio_ext.h>
 # include <time.h>
 # include <conio.h>
 # include <unistd.h>
