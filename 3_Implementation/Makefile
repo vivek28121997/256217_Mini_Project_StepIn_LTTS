@@ -5,12 +5,12 @@ PROJECT_NAME = Washing_Machine
 BUILD = build
 
 # All source code files
-SRC = w.c\
+SRC = src/w.c\
 
 # All test source files
-TEST_SRC = w.c\
-test_wmcs.c\
-unity.c\
+TEST_SRC = src/w.c\
+test/test_wmcs.c\
+unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
