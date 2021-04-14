@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
-It is a user input based application for Automatic Washing Machine Consol system program with different modes (fully flexible) which takes care of the clothes for washing or drying. It also provides the power control for various motors and pumps controlling the driving motor spin duration and speed, with added features for analyzing the input physical parameters such as input voltage, load current for motor safety, increasing the system operation lifetime durability and safety.
+It is a user input based application for Automatic Washing Machine Console system program with different modes (fully-flexible) which takes care of the clothes for washing or drying. It also provides the power control for various motors and pumps controlling the driving motor spin duration and speed, with added features for analyzing the input physical parameters such as input voltage, load current for motor safety, increasing the system operation lifetime durability and safety.
 
 ## Research
 ![Description](Link to Pic)
@@ -14,7 +14,7 @@ It is a user input based application for Automatic Washing Machine Consol system
 
 -- Content 
 ## Defining Our System
-It is a user input based application for Automatic Washing Machine Consol system program with different modes (fully flexible) which takes care of the clothes for washing or drying. It also provides the power control for various motors and pumps controlling the driving motor spin duration and speed, with added features for analyzing the input physical parameters such as input voltage, load current for motor safety, increasing the system operation lifetime durability and safety.
+It is a user input based application for Automatic Washing Machine Console system program with different modes (fully-flexible) which takes care of the clothes for washing or drying. It also provides the power control for various motors and pumps controlling the driving motor spin duration and speed, with added features for analyzing the input physical parameters such as input voltage, load current for motor safety, increasing the system operation lifetime durability and safety.
 ## SWOT ANALYSIS
 ![SWOT-Sample](Link to Pic)
 
@@ -22,35 +22,43 @@ It is a user input based application for Automatic Washing Machine Consol system
 
 ## Who:
 
-**User**
+**User**Domestic or commercial user who needs to cut down on efforts and time, can easily utilize the process flow even for the easy management of laundary.
 
 ## What:
 
-**Product**
+**Product**Many high end systems provide these facilities but do not allow user to opt for fully flexible options to mould the system process flow as per their need and choice.
 
 ## When:
 
-**Active**
+**Active**The problem with automatic washing systems is that they do not offer user to opt for the level upto which they want the system to work.
 
 ## Where:
 
-**TBD**
+**TBD**The problem with automatic washing systems is that they do not offer user to opt for the level upto which they want the system to work.
 
 ## How:
 
-**Inputs**
+**Inputs**The fully automatic systems would offer effortless process flow with least user inputs but this is not required every time, it needs to posses full flexibility to be completely maneuvered.
 
 # Detail requirements
 ## High Level Requirements:
-- User Inputs
-- Sensor Inputs
-
 ID | Description | Status (Implemented/Future)
----|---------------|-----------
+---|----------------------|-----------
  1 |  User Inputs  | Implemented
- 2 | Sensor Inputs | Future
+ 2 | System Sensor Inputs | Future
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+ID | Description | Status (Implemented/Future)
+---|---------------------|-----------
+ 1 |  Washing modes  | Implemented
+ 2 | Load Capacity | Implemented
+ 3 | Soaking option | Implemented
+ 4 | Soaking time | Implemented
+ 5 | Water Temperature | Implemented
+ 6 | System Checks | Implemented
+ 7 | User input logs | Implemented
+ 8 | System process log | Implemented
+ 9 | Multi-mode | Future
+ 
+ 
