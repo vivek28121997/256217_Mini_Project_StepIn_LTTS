@@ -21,12 +21,18 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 -------|---------------------|----------------|----------------|---------------|-------------|--------------
 `256217` | Vivek Kumar Yadav  | Feature A, B etc    | 5 No     | 2 No   |X No   |X No        
 
+## Features:
+ID | Description 
+---|----------------------
+ 1 |  User Inputs  
+ 2 | System Sensor Input
+
 ## Challenges Faced and How Was It Overcome
 
-1. User Input checks
-2. Wrong Input checks
-3. ...
-4. ...
+ID | Description | Solution
+----|----------------------|---------------------------------------
+ 1. |  User Input checks  | Implemented
+ 2. |  Wrong Input checks | Future
 
 ## Learning Resources
 >1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
