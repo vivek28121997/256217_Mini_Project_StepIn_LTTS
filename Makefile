@@ -8,8 +8,7 @@ BUILD = build
 SRC = w.c\
 
 # All test source files
-TEST_SRC = w.c\
-test_wmcs.c\
+TEST_SRC = test_wmcs.c\
 unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
