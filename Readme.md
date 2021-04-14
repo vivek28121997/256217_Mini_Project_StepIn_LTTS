@@ -19,21 +19,33 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------------------|----------------|----------------|---------------|-------------|--------------
-`256217` | Vivek Kumar Yadav  | Feature A, B etc    | 5 No     | 2 No   |X No   |X No        
+`256217` | Vivek Kumar Yadav  | Feature 1, 2..,9   | 5 No     | 2 No   |X No   |X No        
 
 ## Features:
 ID | Description 
 ---|----------------------
- 1 |  User Inputs  
- 2 | System Sensor Input
+ 1 | Washing modes
+ 2 | Load Capacity
+ 3 | Soaking option
+ 4 | Soaking time
+ 5 | Water Temperature
+ 6 | System Checks
+ 7 | User input logs
+ 8 | System process log
+ 9 | Multi-mode option
 
 ## Challenges Faced and How Was It Overcome
 
 ID | Description | Solution
-----|----------------------|---------------------------------------
- 1. |  User Input checks  | Implemented
- 2. |  Wrong Input checks | Future
-
+---|----------------------|---------------------------------------
+ 1 |  User Input checks  | Implemented
+ 2 |  Wrong Input checks | Future
+ 4 |  Washing modes  | Implemented
+ 5 | System Checks | Implemented
+ 6 | User input logs | Implemented
+ 7 | System process log | Implemented
+ 8 | Multi-mode | Future
+ 
 ## Learning Resources
 >1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 >2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
