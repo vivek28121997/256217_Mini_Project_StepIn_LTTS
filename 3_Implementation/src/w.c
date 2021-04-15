@@ -7,7 +7,7 @@ void start() {
  printf("\n**************************************************************");
  printf("\nPress (s) to Start the washing machine");
  printf("\nPress (e) to shut down the washing machine");
- ch=_getch();
+ ch= getchar();
  printf("\n%c",ch);
  if(ch=='s'){
   printf("\nWashing machine is ON.");
@@ -29,7 +29,7 @@ void mainmenu()
  printf("\n**************************************************************");
  printf("\nIf you want to wash clothes, please type w :");
  printf("\nIf you want to go for System checks, please type c :");
- ch=_getch();
+ ch= getchar();
  printf("\n%c",ch);
  do
  {
@@ -39,7 +39,7 @@ void mainmenu()
     System_checks();
 
   printf("\nInvalid answer. Type correctly:");
-  ch=_getch();
+  ch= getchar();
   printf("\n%c",ch);
   mainmenu();
  }
@@ -76,11 +76,11 @@ void Loadsize(){
  printf("\nEnter m(medium) if your clothes between 2-3kg:");
  printf("\nEnter l(large) if your clothes between 3-4kg:");
  printf("\nEnter a(auto) for machine to determines the load capacity:");
- ch=_getch();
+ ch = getchar();
  printf("\n%c",ch);
  while(ch!='s'&& ch!='m'&& ch!='l' && ch!='a'){
   printf("\nInvalid command. Type correctly:");
-  ch=_getch();
+  ch= getchar();
   printf("\n%c",ch);
   Loadsize();
  }
@@ -100,11 +100,11 @@ void WashMenu(){
  printf("\nEnter i(rinse & dry) consist of only rinsing and drying:");
  printf("\nEnter r(rinse) consist of only rinsing without washing or drying:");
  printf("\nEnter d(dry) consist of only drying without washing or rinsing :");
- ch=_getch();
+ ch= getchar();
   printf("\n%c",ch);
  while(ch!='f' && ch!='i'&& ch!='r' && ch!='d'){
   printf("\nInvalid command. Type correctly:");
-  ch=_getch();
+  ch=getchar();
   printf("\n%c",ch);
  }
   result[count]=ch;
@@ -123,11 +123,11 @@ void soak(){
  printf("\n                      * ((Soak menu)) *                       ");
  printf("\n**************************************************************");
  printf("\nIf you want soak please press (y)YES, else (n)NO:");
- ch=_getch();
+ ch=getchar();
   printf("\n%c",ch);
  while(ch!='y' && ch!='n'){
     printf("\nInvalid answer. Type correctly:");
-    ch=_getch();
+    ch= getchar();
     printf("\n%c",ch);
  }
  if(ch=='y'){
@@ -164,11 +164,11 @@ void Temperature(){
  printf("\n**************************************************************");
  printf("\nEnter (h) for hot water option in operation");
  printf("\nEnter (c) for cold water option in operation");
- ch=_getch();
+ ch=getchar();
  printf("\n%c",ch);
  while(ch!='h' && ch!='c'){
   printf("\nInvalid command. Type correctly:");
-  ch=_getch();
+  ch=getchar();
   printf("\n%c",ch);
  }
  result[count]=ch;
