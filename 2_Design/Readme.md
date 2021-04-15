@@ -1,5 +1,4 @@
-# Design
-
+# Design ![](https://github.com/vivek28121997/256217_Mini_Project_StepIn_LTTS/blob/a706e4101eb932bb330f17374b578c2ee8b84aaf/2_Design/Dgn.png)
 ## High Level Design 
 * Process-flow Design :
 
