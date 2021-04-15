@@ -7,7 +7,7 @@
 # include <time.h>
 //# include <conio.h>
 # include <unistd.h>
-# include <dos.h>
+//# include <dos.h>
 
 int main(void);
 void start();
