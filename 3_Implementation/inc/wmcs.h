@@ -5,7 +5,7 @@
 # include <stdlib.h>
 //# include <stdio_ext.h>
 # include <time.h>
-# include <conio.h>
+//# include <conio.h>
 # include <unistd.h>
 # include <dos.h>
 
