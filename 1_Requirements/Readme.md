@@ -39,14 +39,14 @@ The problem with automatic washing systems is that they do not offer user to opt
 
 **Inputs** The fully automatic systems would offer effortless process flow with least user inputs but this is not required every time, it needs to posses full flexibility to be completely maneuvered.
 
-# Detail requirements
-## High Level Requirements
+# Detail requirements:
+## High Level Requirements:
 ID | Description | Status (Implemented/Future)
 ---|----------------------|-----------
  1 |  User Inputs  | Implemented
  2 | System Sensor Inputs | Future
 
-##  Low level Requirements
+##  Low level Requirements:
 ID | Description | Status (Implemented/Future)
 ---|---------------------|-----------
  1 |  Washing modes  | Implemented
