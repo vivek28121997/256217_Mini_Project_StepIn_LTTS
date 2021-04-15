@@ -1,6 +1,7 @@
 # Requirements
 ## Introduction
 It is a user input based application for Automatic Washing Machine Console system program with different modes (fully-flexible) which takes care of the clothes for washing or drying. It also provides the power control for various motors and pumps controlling the driving motor spin duration and speed, with added features for analyzing the input physical parameters such as input voltage, load current for motor safety, increasing the system operation lifetime durability and safety.
+![Description](https://github.com/vivek28121997/256217_Mini_Project_StepIn_LTTS/blob/04fe3592b406b3528b82e15cb4a8ab41333f0880/1_Requirements/Req.png)
 
 ## Research
 ![Description](Link to Pic)
