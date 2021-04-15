@@ -3,24 +3,24 @@
 
 # include <stdio.h>
 # include <stdlib.h>
-# include <stdio_ext.h>
+//# include <stdio_ext.h>
 # include <time.h>
 # include <conio.h>
 # include <unistd.h>
 # include <dos.h>
 
-void stateOnOff();
+int main(void);
+void start();
 void mainmenu();
-void Washclothes();
-void Dryclothes();
+void Loadsize();
+void System_checks();
 void WashMenu();
 void soak();
-void getTimesoak();
+void soakTime();
 void Temperature();
-void viewlog();
+void inputlog();
 void processlog();
 char result[4];
-int main(void);
 int times,count;
 
 #endif  /* #define __WMCS_H__ */
