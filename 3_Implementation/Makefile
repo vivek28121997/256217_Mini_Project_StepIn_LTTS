@@ -1,7 +1,16 @@
 PROJ_NAME = washing_machine
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-SRC =src/w.c
+SRC =src/w.c\
+src/start.c\
+src/mainmenu.c\
+src/System_checks.c\
+src/Loadsize.c\
+src/soak.c\
+src/soakTime.c\
+src/Temperature.c\
+src/inputlog.c\
+src/processlog.c
 
 COV_SRC =test/test_wmcs.c
 
