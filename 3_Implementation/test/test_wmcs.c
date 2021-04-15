@@ -1,10 +1,10 @@
+#include "wmcs.h"
 #include "unity.h"
-#include "wmcs.h"
 
-/* Modify these two lines according to the project */
-#include "wmcs.h"
-#ifndef PROJECT_NAME
-#define PROJECT_NAME    "Washing_Machine"
+/* Required by the unity test framework */
+void setUp(){}
+/* Required by the unity test framework */
+void tearDown(){}
 
 /* Prototypes for all the test functions */
 void test_mainmenu(void);
@@ -17,11 +17,15 @@ void test_Temperature(void);
 void test_viewlog(void);
 void test_processlog(void);
 
+char s[10]='s';
 
-/* Required by the unity test framework */
-void setUp(){}
-/* Required by the unity test framework */
-void tearDown(){}
+
+/* Write all the test functions */ 
+void test_start(void) {
+  
+  //TEST_ASSERT_EQUAL_STRING("Washing machine is ON.",start->s);
+  //TEST_ASSERT_EQUAL(Dryclothes(), mainmenu("d"));
+}
 
 /* Start of the application test */
 int main()
@@ -43,10 +47,3 @@ int main()
   /* Close the Unity Test Framework */
   return UNITY_END();
 }
-
-/* Write all the test functions */ 
-void test_start(void) {
-  //UNITY_TEST_ASSERT("Washing machine is ON.",start("s"));
-  //TEST_ASSERT_EQUAL(Dryclothes(), mainmenu("d"));
-}
-#endif 
