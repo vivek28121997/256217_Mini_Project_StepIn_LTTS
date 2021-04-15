@@ -17,7 +17,7 @@ void test_Temperature(void);
 void test_viewlog(void);
 void test_processlog(void);
 
-char s[10]='s';
+char s[10]="s";
 
 
 /* Write all the test functions */ 
