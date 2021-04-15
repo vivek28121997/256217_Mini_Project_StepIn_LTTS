@@ -1,19 +1,5 @@
 # include "wmcs.h"
 
-void start();
-void mainmenu();
-void Washclothes();
-void System_checks();
-void WashMenu();
-void soak();
-void getTimesoak();
-void Temperature();
-void viewlog();
-void processlog();
-char result[4];
-int main(void);
-int times,count;
-
 int _tmain(int argc, char* argv[])
  {
   start();
@@ -41,9 +27,9 @@ void start() {
    printf("\nWashing machine is Shuting down.");
    sleep(2);
    system("exit");}
-  else
+  else{
    printf("\nWashing machine is OFF. To Start again, Press (s)");
-   start();
+   start();}
  }
 
 void mainmenu()
@@ -59,7 +45,7 @@ void mainmenu()
  do
  {
    if(ch=='w')
-    Washclothes();
+    Loadsize();
    else if(ch=='c')
     System_checks();
 
@@ -75,7 +61,7 @@ void System_checks(){
   system("cls");
   char ch;
  printf("\n**************************************************************");
- printf("\n                       * ((System Checks)) *                      ");
+ printf("\n                     * ((System Checks)) *                    ");
  printf("\n**************************************************************");
  
  
@@ -90,24 +76,24 @@ void System_checks(){
  mainmenu();
 }
 
-void Washclothes(){
+void Loadsize(){
  system("cls");
  char ch;
  printf("\n**************************************************************");
- printf("\n                       * ((Size menu)) *                      ");
+ printf("\n                       * ((Load Size menu)) *                      ");
  printf("\n**************************************************************");
- printf("\nPlease select size of the your clothes:");
- printf("\nEnter s(small) if your clothes between 1-2kgr:");
- printf("\nEnter m(medium) if your clothes between 2-3kgr:");
- printf("\nEnter l(large) if your clothes between 3-4kgr:");
+ printf("\nPlease select Load capacity for your clothes:");
+ printf("\nEnter s(small) if your clothes between 1-2kg:");
+ printf("\nEnter m(medium) if your clothes between 2-3kg:");
+ printf("\nEnter l(large) if your clothes between 3-4kg:");
  printf("\nEnter a(auto) for machine to determines the load capacity:");
  ch=_getch();
  printf("\n%c",ch);
  while(ch!='s'&& ch!='m'&& ch!='l' && ch!='a'){
-  printf("\nInvalid answer. Type correctly:");
+  printf("\nInvalid command. Type correctly:");
   ch=_getch();
   printf("\n%c",ch);
-  Washclothes();
+  Loadsize();
  }
  result[count]=ch;
  count++;
@@ -121,14 +107,14 @@ void WashMenu(){
  printf("\n                     * ((Wash menu)) *                        ");
  printf("\n**************************************************************");
  printf("\nPlease select one of the wash menu options for your clothes:");
- printf("\nEnter f(full wash) consist of washing ,rinsing and spinning:");
- printf("\nEnter i(rinse & dry) consist of only rinsing and spinning without washing:");
+ printf("\nEnter f(full wash) consist of washing, rinsing and spinning:");
+ printf("\nEnter i(rinse & dry) consist of only rinsing and drying:");
  printf("\nEnter r(rinse) consist of only rinsing without washing or drying:");
  printf("\nEnter d(dry) consist of only drying without washing or rinsing :");
  ch=_getch();
   printf("\n%c",ch);
  while(ch!='f' && ch!='i'&& ch!='r' && ch!='d'){
-  printf("\nInvalid answer. Type correctly:");
+  printf("\nInvalid command. Type correctly:");
   ch=_getch();
   printf("\n%c",ch);
  }
@@ -158,12 +144,12 @@ void soak(){
  if(ch=='y'){
   result[count]=ch;
   count++;
-  getTimesoak();
+  soakTime();
  }
   Temperature();
  }
 
-void getTimesoak(){
+void soakTime(){
  system("cls");
  int ch;
   printf("\n**************************************************************");
@@ -187,20 +173,20 @@ void Temperature(){
  printf("\n**************************************************************");
  printf("\n                   * ((Temperature menu)) *                   ");
  printf("\n**************************************************************");
- printf("\nEnter h(hot) if you want hot water for operation");
- printf("\nEnter c(cold) if you want cold water for operation");
+ printf("\nEnter (h) for hot water option in operation");
+ printf("\nEnter (c) for cold water option in operation");
  ch=_getch();
  printf("\n%c",ch);
  while(ch!='h' && ch!='c'){
-  printf("\nInvalid answer. Type correctly:");
+  printf("\nInvalid command. Type correctly:");
   ch=_getch();
   printf("\n%c",ch);
  }
  result[count]=ch;
- viewlog();
+ inputlog();
 }
 
-void viewlog() {
+void inputlog() {
  system("cls");
  printf("\n********************((The Machine is Ready to Work))********************:");
  printf("\n");
@@ -288,13 +274,10 @@ void processlog() {
 j++;
  if(result[j]=='y'){
   printf("Soaking is in process.\nPlease wait...\n");
+  printf("\nTime for soaking: ");
+  printf("%d mins\n",times);
   sleep(3);
   printf("Soaking is completed\n");
-  //printf("\nTime for soaking: ");
-  //printf("%d mins",times);
-  //times+=60;
-  //printf("%d ",times);
-  //printf("mins");
  }
  ////soak
 
