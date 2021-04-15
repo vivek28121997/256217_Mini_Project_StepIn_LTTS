@@ -15,6 +15,7 @@ It is a user input based application for Automatic Washing Machine Console syste
 -- Content 
 ## Defining Our System
 It is a user input based application for Automatic Washing Machine Console system program with different modes (fully-flexible) which takes care of the clothes for washing or drying. It also provides the power control for various motors and pumps controlling the driving motor spin duration and speed, with added features for analyzing the input physical parameters such as input voltage, load current for motor safety, increasing the system operation lifetime durability and safety.
+
 ![SYSTEM Structure](https://github.com/vivek28121997/256217_Mini_Project_StepIn_LTTS/blob/7e972f7338b81a520ca9ba0e272f0a886606ee3b/1_Requirements/Requirements.jpg)
 
 ## SWOT ANALYSIS
