@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/Vivek Yadav/256217_Mini_Project_StepIn_LTTS'
+make.exe: Leaving directory `c:/Users/Vivek Yadav/256217_Mini_Project_StepIn_LTTS'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+ 
