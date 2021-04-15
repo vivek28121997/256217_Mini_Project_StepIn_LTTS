@@ -1,21 +1,7 @@
 PROJ_NAME = washing_machine
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
-SRC =src/w.c\
-src/display_ll.c \
-src/insert_end.c \
-src/find_by_id.c \
-src/update_record.c \
-src/indexFile.c \
-src/validate_id.c \
-src/openFile.c \
-src/saveFile.c \
-src/readFile.c \
-src/loadData.c \
-src/update_data_file.c \
-src/delete_patient.c \
-src/delete_rec_file.c \
-src/delete_all.c
+SRC =src/w.c
 
 COV_SRC = test.c
 
