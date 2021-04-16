@@ -19,7 +19,7 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------------------|----------------|----------------|---------------|-------------|--------------
-`256217` | Vivek Kumar Yadav  | Feature 1, 2..,8  | 5 No     | 2 No   |X No   |X No        
+`256217` | Vivek Kumar Yadav  | Feature 1, 2..,8  | 3     | 3   |4   |4        
 
 ## Features:
 ID | Description 
