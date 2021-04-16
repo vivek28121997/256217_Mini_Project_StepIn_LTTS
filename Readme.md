@@ -38,7 +38,7 @@ ID | Description
 ID | Description | Solution
 ---|----------------------|---------------------------------------
  1 |  User Input checks  | Implemented
- 2 |  Wrong Input checks | Future
+ 2 |  Wrong Input checks | Implemented
  4 |  Washing modes  | Implemented
  5 | System Checks | Implemented
  6 | User input logs | Implemented
