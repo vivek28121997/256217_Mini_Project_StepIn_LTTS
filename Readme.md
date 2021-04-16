@@ -32,7 +32,6 @@ ID | Description
  6 | System Checks
  7 | User input logs
  8 | System process log
- 9 | Multi-mode option
 
 ## Challenges Faced and How Was It Overcome
 
@@ -44,7 +43,6 @@ ID | Description | Solution
  5 | System Checks | Implemented
  6 | User input logs | Implemented
  7 | System process log | Implemented
- 8 | Multi-mode | Future
  
 ## Learning Resources
 >1.[markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
