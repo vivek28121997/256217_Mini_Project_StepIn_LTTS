@@ -52,5 +52,5 @@ j++;
  j++;
   sleep(2);
   printf("\nWashing is Complete.\n\n");
-  start();
+ system("exit");
 }
